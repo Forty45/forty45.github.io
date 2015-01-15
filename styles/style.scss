@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #F9F9F9;
+  background-color: #242424;
   display: table;
   height: 100%;
   width: 100%;
@@ -14,21 +14,32 @@ body {
 }
 
 section {
-  display: table-cell;
-  padding: 0 1rem;
+  display: block;
+  padding: 0 2rem;
 }
 
-h1 {
-  font-size: 2.4rem;
-  font-weight: 600;
-  color: #3F3F3F;
-
-  &.center-hero {
-    margin-top: 35vh;
-    text-align: center;
+footer {
+  &.row {
+    margin: 8rem auto 3rem auto;
   }
 
-  .gray { color: #6B6B6B; }
+  &p {
+    text-align: center;
+  }
+}
+
+.title {
+  background-image: url("../img/icon.svg");
+  background-size: 100%;
+  max-width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  margin-top: 15vh;
+
+  @media screen and (min-width: 520px) {
+    height: 350px;
+  }
 }
 
 p {
@@ -39,15 +50,49 @@ p {
 }
 
 .row {
+  @extend .clearfix;
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0 1rem;
 }
 
 a {
   color: #3B94D9;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     opacity: .7;
   }
 }
+
+// Icons
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60px;
+  height: 60px;
+  margin: 0 0.5rem;
+  float: left;
+  cursor: pointer;
+
+  &:hover { opacity: .7; }
+
+  &.etsy { background-image: url("../img/etsy.svg"); }
+  &.facebook { background-image: url("../img/facebook.svg"); }
+  &.twitter { background-image: url("../img/twitter.svg"); }
+}
+
+// ----- Utilities ----- //
+
+// Clearfix
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
