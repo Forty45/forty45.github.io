@@ -1,0 +1,140 @@
+.card {
+  @extend .clearfix;
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  @media (min-width: 451px) {
+    @include border-radius(10px);
+    background-color: #535152;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+.slider {
+  display: none;
+
+  @media (min-width: 451px) {
+    @include border-radius(10px);
+    overflow: hidden;
+    margin: 1rem;
+    display: block;
+  }
+}
+
+.sss {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.caption {
+  color: white;
+  background-color: #535152;
+  width: 100%;
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-top: -2.5rem;
+  opacity: 0.9;
+}
+
+.column {
+  //Product Shot
+
+  &.thumbnail {
+    @include border-radius(5px);
+    background-color: #242424;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin: 0 0 1.5rem 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+
+    @media (min-width: 451px) {
+      margin: 1%;
+      padding-bottom: calc(36% + 3.5rem);
+      width: 48%;
+    }
+
+    @media (min-width: 751px) {
+      margin: 1%;
+      padding-bottom: calc(23.3333% + 3.5rem);
+      width: 31.3333%;
+    }
+
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  .product-title {
+    padding-bottom: 16%;
+    width: 31.3333%;
+  }
+}
+
+.shot {
+  pointer-events: none;
+
+  @media (min-width: 451px) {
+    position: absolute;
+  }
+
+  img { width: 100%; }
+}
+
+.shot-text {
+  background-color: #535152;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 3.5rem;
+
+  @media (min-width: 451px) {
+    background-color: #242424;
+  }
+}
+
+//Contoured Image
+.shot-title {
+  color: rgba(249, 249, 249, 0.8);
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  text-align: left;
+
+  @media (min-width: 451px) {
+    font-size: 1rem;
+    margin: 1rem 1rem 1.6rem 1rem;
+  }
+}
+
+//Starting at
+.shot-description {
+  color: rgba(249, 249, 249, 0.5);
+  margin: 1.1rem 1rem;
+  font-size: 1rem;
+  text-align: right;
+
+  @media (min-width: 451px) {
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    margin-left: 1rem;
+    text-align: left;
+    margin-bottom: 0.6rem;
+  }
+}
+
+//$99.99
+.shot-price {
+  color: rgba(249, 249, 249, 1);
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+<meta charset="utf-8"/>
 <!-- Enable responsive view on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="p:domain_verify" content="f11fb9b0671f49f237641bb5c4cfb52b"/>
@@ -21,14 +21,103 @@
 
 </script>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="sss/sss.min.js"></script>
+<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+
+<script>
+jQuery(function($) {
+  $('.slider').sss({
+  slideShow : true, // Set to false to prevent SSS from automatically animating.
+  startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+  transition : 400, // Length (in milliseconds) of the fade transition.
+  speed : 5000, // Slideshow speed in milliseconds.
+  showNav : true // Set to false to hide navigation arrows.
+  });
+});
+</script>
+
 </head>
 
 <body>
-  <section>
-    <div class="title"></div>
-  </section>
+  <!--Title-->
+  <div class="row">
+    <a href="https://www.etsy.com/shop/Forty45" target="blank">
+      <span class="title"></span>
+    </a>
+  </div>
 
-  <footer class="row">
-    <p>Follow us on <a href="https://twitter.com/forty45design" target="_blank">twitter</a> to learn more</p>
+  <!--Slider-->
+  <div class="row">
+    <div class="slider">
+      <div><img src="img/slider-shots/contoured-image.jpg" alt="Contoured Image" /><span class="caption">Contoured Image &#8211;&#32;Custom Density Art</span></div>
+      <div><img src="img/slider-shots/engraved-audio_2.jpg" alt="Engraved Audio" /><span class="caption">Engraved Audio &#8211;&#32;Custom Sound Wave Art</span></div>
+      <div><img src="img/slider-shots/contoured-image_2.jpg" alt="Contoured Image" /><span class="caption">Contoured Image &#8211;&#32;Custom Density Art</span></div>
+      <div><img src="img/slider-shots/lined-image.jpg" alt="Lined Image" /><span class="caption">Lined Image &#8211;&#32;Custom Density Art</span></div>
+    </div>
+  </div>
+
+  <!--Product Shots-->
+  <div class="row">
+    <div class="column card">
+      <!--Line 1-->
+      <a href="https://www.etsy.com/listing/222922199/contoured-image-custom-density-art?ref=listing-shop-header-2" target="blank" class="column thumbnail">
+        <div class="shot">
+          <img style="display: block;" src="img/product-shots/contoured-image_1.jpg" alt="Contoured Image" />
+          <div class="row shot-text">
+            <p class="shot-title">Contoured Image</p>
+            <p class="shot-description">Starting at <span class="shot-price">$139.99</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.etsy.com/listing/227372640/lined-image-print-custom-density-art?ref=shop_home_active_5" target="blank" class="column thumbnail">
+        <div class="shot">
+          <img style="display: block;" src="img/product-shots/lined-image_print_3.jpg" alt="Lined Image" />
+          <div class="row shot-text">
+            <p class="shot-title">Lined Image &#8211;&#32;Print</p>
+            <p class="shot-description">Starting at <span class="shot-price">$26.99</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.etsy.com/listing/227364409/engraved-audio-custom-sound-wave-art?ref=listing-shop-header-1" target="blank" class="column thumbnail">
+        <div class="shot">
+          <img style="display: block;" src="img/product-shots/engraved-audio_1.jpg" alt="Engraved Audio" />
+          <div class="row shot-text">
+            <p class="shot-title">Engraved Audio</p>
+            <p class="shot-description">Starting at <span class="shot-price">$149.99</span></p>
+          </div>
+        </div>
+      </a>
+
+      <!--Line 2-->
+      <a href="https://www.etsy.com/listing/227370812/arrayed-audio-paper-cut-custom-sound?ref=shop_home_active_1" target="blank" class="column thumbnail">
+        <div class="shot">
+          <img style="display: block;" src="img/product-shots/arrayed-audio-cut-paper_1.jpg" alt="Arrayed Audio Cut Paper" />
+            <div class="row shot-text">
+              <p class="shot-title">Arrayed Audio &#8211;&#32;Paper Cut</p>
+              <p class="shot-description">Starting at <span class="shot-price">$29.99</span></p>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.etsy.com/listing/227370299/arrayed-audio-print-custom-sound-wave?ref=related-4" target="blank" class="column thumbnail">
+        <div class="shot">
+          <img style="display: block;" src="img/product-shots/arrayed-audio-print_1.jpg" alt="Arrayed Audio Print" />
+          <div class="row shot-text">
+            <p class="shot-title">Arrayed Audio &#8211;&#32;Print</p>
+            <p class="shot-description">Starting at <span class="shot-price">$29.99</span></p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    &#169; 2015 Forty45 &#8211;&#32; <a href="mailto:info@forty45.com">info@forty45.com</a>
   </footer>
+
 </body>

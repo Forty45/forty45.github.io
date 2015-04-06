@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+
+  @media (min-width: 451px) { font-size: 16px; }
+  @media (min-width: 751px) { font-size: 18px; }
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #242424;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  display: block;
+  padding: 0 2rem;
+}
+
+footer {
+  color: #F1F1F1;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  text-align: center;
+
+  @media (min-width: 451px) {
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+.title {
+  background-image: url("../img/icon.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 85px;
+  max-width: 300px;
+  margin: 1.5rem auto;
+  transition: 0.4s ease;
+
+  @media (min-width: 751px) {
+    background-size: 100%;
+    height: 155px;
+  }
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+}
+
+a {
+  color: #3B94D9;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    opacity: .7; }
+
+.container {
+  background-color: #EAEDF0;
+  width: 100%;
+  height: 10rem;
+  margin: 0 auto; }
+
+button {
+  background-color: #E2DDDB;
+  box-shadow: 0 1px 0px 0px #cbc2bf, 0 -1px 0px 0 #f6f5f4;
+  border-radius: 8px;
+  color: #747474;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem; }
+  button:active {
+    background-color: #d7d0cd;
+    box-shadow: 0 1px 0px 0px #c0b5b1, 0 -1px 0px 0 #f0edec; }
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 60px;
+  height: 60px;
+  margin: 0 0.5rem;
+  float: left;
+  cursor: pointer; }
+  .icon:hover {
+    opacity: .7; }
+  .icon.etsy {
+    background-image: url("../img/etsy.svg"); }
+  .icon.facebook {
+    background-image: url("../img/facebook.svg"); }
+  .icon.twitter {
+    background-image: url("../img/twitter.svg"); }
+
+.clearfix:after, .row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix, * html .row {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix, *:first-child + html .row {
+  zoom: 1; }
+
+/* IE7 */
