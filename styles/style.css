@@ -29,6 +29,12 @@ footer {
     footer {
       margin: 3rem 0 1rem 0; } }
 
+.mobile-hide {
+  display: hidden; }
+  @media (min-width: 451px) {
+    .mobile-hide {
+      display: inline-block; } }
+
 .title {
   background-image: url("../img/icon.svg");
   background-size: 50%;
