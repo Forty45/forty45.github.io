@@ -23,11 +23,11 @@ section {
 footer {
   color: #F1F1F1;
   font-size: 0.8rem;
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 0;
   text-align: center; }
   @media (min-width: 451px) {
     footer {
-      margin: 3rem 0 1rem 0; } }
+      margin: 3rem 0; } }
 
 .mobile-hide {
   display: none; }
@@ -53,6 +53,13 @@ footer {
 p {
   font-size: 1rem;
   color: #777; }
+  p.section-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0.5rem 0 0.8rem 0;
+    opacity: 0.5; }
 
 a {
   color: #3B94D9;
@@ -141,6 +148,9 @@ button:active {
       background-color: #535152;
       margin: 1rem;
       padding: 0.5rem; } }
+
+.features {
+  opacity: .7; }
 
 .slider {
   display: none; }
@@ -249,3 +259,13 @@ button:active {
 
 .shot-price {
   color: #f9f9f9; }
+
+.shirt {
+  background-color: white;
+  background-size: 90%;
+  background-image: url("../img/tshirt.png");
+  margin: 1%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center; }

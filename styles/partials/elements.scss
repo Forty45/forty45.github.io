@@ -11,6 +11,10 @@
   }
 }
 
+.features {
+  opacity: .7;
+}
+
 .slider {
   display: none;
 
@@ -138,4 +142,15 @@
 //$99.99
 .shot-price {
   color: rgba(249, 249, 249, 1);
+}
+
+.shirt {
+  background-color: white;
+  background-size: 90%;
+  background-image: url("../img/tshirt.png");
+  margin: 1%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
