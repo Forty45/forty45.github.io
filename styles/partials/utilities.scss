@@ -1,0 +1,24 @@
+.centered { text-align: center; }
+.float-right { float: right !important; }
+.float-left { float: left !important; }
+
+.mobile-hide {
+  display: none;
+  @media (min-width: 451px) { display: inline-block; }
+}
+
+.mobile-tablet-hide {
+  display: none;
+  @media (min-width: 451px) { display: none; }
+  @media (min-width: 751px) { display: inline-block; }
+}
+
+tablet-hide {
+  display: inline-block;
+  @media (min-width: 451px) { display: none; }
+  @media (min-width: 751px) { display: inline-block; }
+}
+
+.desktop-hide {
+  @media (min-width: 751px) { display: none; }
+}

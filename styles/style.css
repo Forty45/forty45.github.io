@@ -1,3 +1,37 @@
+.modal-dialog {
+  width: auto;
+  margin: 0.5rem; }
+  @media (min-width: 751px) {
+    .modal-dialog {
+      width: 700px;
+      margin: 10vh auto; } }
+  .modal-dialog .modal-images {
+    float: left;
+    height: 100%;
+    width: 100%; }
+    @media (min-width: 751px) {
+      .modal-dialog .modal-images {
+        width: 60%; } }
+    .modal-dialog .modal-images .modal-img {
+      display: block;
+      margin: 0 auto;
+      width: 100%; }
+      @media (min-width: 451px) {
+        .modal-dialog .modal-images .modal-img {
+          width: 20rem; } }
+  .modal-dialog .modal-info {
+    margin-top: 1rem;
+    float: left;
+    width: 100%; }
+    @media (min-width: 751px) {
+      .modal-dialog .modal-info {
+        margin-top: 0;
+        margin-left: 2%;
+        width: 38%; } }
+  .modal-dialog p {
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem 0; }
+
 html {
   font-size: 14px; }
   @media (min-width: 451px) {
@@ -50,6 +84,12 @@ footer {
       background-size: 100%;
       height: 155px; } }
 
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: white; }
+  h1.modal-title, h2.modal-title, h3.modal-title, h4.modal-title {
+    color: #777; }
+
 p {
   font-size: 1rem;
   color: #777; }
@@ -66,9 +106,6 @@ a {
   text-decoration: none;
   cursor: pointer; }
 
-a:hover {
-  opacity: .7; }
-
 .container {
   background-color: #EAEDF0;
   width: 100%;
@@ -76,18 +113,33 @@ a:hover {
   margin: 0 auto; }
 
 button {
-  background-color: #E2DDDB;
-  box-shadow: 0 1px 0px 0px #cbc2bf, 0 -1px 0px 0 #f6f5f4;
-  border-radius: 8px;
-  color: #747474;
-  cursor: pointer;
+  background-color: #4fa7c2;
   border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: .01rem;
   outline: none;
-  padding: 0.5rem 1rem; }
-
-button:active {
-  background-color: #d7d0cd;
-  box-shadow: 0 1px 0px 0px #c0b5b1, 0 -1px 0px 0 #f0edec; }
+  padding: 0.5rem 0.8rem; }
+  button:hover, button:focus {
+    color: white;
+    outline: none; }
+  button:active {
+    outline: none !important;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  button.button-orange {
+    background-color: #d87424; }
+    button.button-orange:hover {
+      background-color: #e6a673; }
+  button.button-teal {
+    background-color: #1bb1a5; }
+    button.button-teal:hover {
+      background-color: #76d0c9; }
+  button.button-secondary {
+    background-color: #a09e9e; }
+    button.button-secondary:hover {
+      background-color: #c6c5c5; }
 
 .icon {
   background-repeat: no-repeat;
@@ -97,18 +149,14 @@ button:active {
   margin: 0 0.5rem;
   float: left;
   cursor: pointer; }
-
-.icon:hover {
-  opacity: .7; }
-
-.icon.etsy {
-  background-image: url("../img/etsy.svg"); }
-
-.icon.facebook {
-  background-image: url("../img/facebook.svg"); }
-
-.icon.twitter {
-  background-image: url("../img/twitter.svg"); }
+  .icon:hover {
+    opacity: .7; }
+  .icon.etsy {
+    background-image: url("../img/etsy.svg"); }
+  .icon.facebook {
+    background-image: url("../img/facebook.svg"); }
+  .icon.twitter {
+    background-image: url("../img/twitter.svg"); }
 
 .clearfix:after, .row:after, .card:after, .row:after {
   visibility: hidden;
@@ -126,6 +174,43 @@ button:active {
   zoom: 1; }
 
 /* IE7 */
+.centered {
+  text-align: center; }
+
+.float-right {
+  float: right !important; }
+
+.float-left {
+  float: left !important; }
+
+.mobile-hide {
+  display: none; }
+  @media (min-width: 451px) {
+    .mobile-hide {
+      display: inline-block; } }
+
+.mobile-tablet-hide {
+  display: none; }
+  @media (min-width: 451px) {
+    .mobile-tablet-hide {
+      display: none; } }
+  @media (min-width: 751px) {
+    .mobile-tablet-hide {
+      display: inline-block; } }
+
+tablet-hide {
+  display: inline-block; }
+  @media (min-width: 451px) {
+    tablet-hide {
+      display: none; } }
+  @media (min-width: 751px) {
+    tablet-hide {
+      display: inline-block; } }
+
+@media (min-width: 751px) {
+  .desktop-hide {
+    display: none; } }
+
 .row {
   margin: 0 auto;
   max-width: 960px; }
@@ -187,6 +272,7 @@ button:active {
   -ms-border-radius: 5px;
   border-radius: 5px;
   background-color: #242424;
+  border: none;
   cursor: pointer;
   display: inline-block;
   float: left;

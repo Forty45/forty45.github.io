@@ -51,6 +51,7 @@
   &.thumbnail {
     @include border-radius(5px);
     background-color: #242424;
+    border: none;
     cursor: pointer;
     display: inline-block;
     float: left;

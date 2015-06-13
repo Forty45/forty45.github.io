@@ -1,0 +1,42 @@
+.modal-dialog {
+  width: auto;
+  margin: 0.5rem;
+  @media (min-width: 751px) {
+    width: 700px;
+    margin: 10vh auto;
+  }
+
+  .modal-images {
+    float: left;
+    height: 100%;
+    width: 100%;
+    @media (min-width: 751px) {
+      width: 60%;
+    }
+
+    .modal-img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      @media (min-width: 451px) {
+        width: 20rem;
+      }
+    }
+  }
+
+  .modal-info {
+    margin-top: 1rem;
+    float: left;
+    width: 100%;
+    @media (min-width: 751px) {
+      margin-top: 0;
+      margin-left: 2%;
+      width: 38%;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem 0;
+  }
+}
