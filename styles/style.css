@@ -105,6 +105,8 @@ a {
   color: #3B94D9;
   text-decoration: none;
   cursor: pointer; }
+  a:hover {
+    text-decoration: none; }
 
 .container {
   background-color: #EAEDF0;
@@ -118,9 +120,17 @@ button {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
   letter-spacing: .01rem;
   outline: none;
-  padding: 0.5rem 0.8rem; }
+  padding: 0.5rem 0.8rem;
+  width: 100%; }
+  @media (min-width: 451px) {
+    button {
+      display: inline-block;
+      font-size: 0.9rem;
+      width: auto; } }
   button:hover, button:focus {
     color: white;
     outline: none; }
@@ -128,6 +138,13 @@ button {
     outline: none !important;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  button.disabled {
+    cursor: default;
+    opacity: .4;
+    pointer-events: none; }
+  button.close {
+    display: inline-block;
+    width: auto; }
   button.button-orange {
     background-color: #d87424; }
     button.button-orange:hover {
