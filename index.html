@@ -26,9 +26,8 @@
 
 </script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
 <script src="sss/sss.min.js"></script>
-
 <script>
 jQuery(function($) {
   $('.slider').sss({
@@ -44,309 +43,123 @@ jQuery(function($) {
 </head>
 
 <body>
-  <!--Title-->
-  <div class="row">
-    <a href="https://www.etsy.com/shop/Forty45" target="blank">
-      <span class="title"></span>
-    </a>
-  </div>
+  <div class="wrapper">
+    <header>
+      <span class="header-icon"></span>
+      <ul class="mobile-hide float-left">
+        <li><a href="index.html" class="current">Our Products</a></li>
+        <li>About</li>
+      </ul>
+      <ul class="float-right">
+        <li><a href="https://www.etsy.com/shop/Forty45" target="blank" class="button button-orange float-right">View our Shop</a></li>
+      </ul>
+    </header>
 
-  <!--Slider-->
-  <div class="row">
-    <div class="slider">
-      <div><img src="img/slider-shots/contoured-image.jpg" alt="Contoured Image" /><span class="caption">Contoured Image &#8211;&#32;Custom Density Art</span></div>
-      <div><img src="img/slider-shots/engraved-audio_2.jpg" alt="Engraved Audio" /><span class="caption">Engraved Audio &#8211;&#32;Custom Sound Wave Art</span></div>
-      <div><img src="img/slider-shots/contoured-image_2.jpg" alt="Contoured Image" /><span class="caption">Contoured Image &#8211;&#32;Custom Density Art</span></div>
-      <div><img src="img/slider-shots/lined-image.jpg" alt="Lined Image" /><span class="caption">Lined Image &#8211;&#32;Custom Density Art</span></div>
+    <div class="content">
+      <!-- Arrayed Audio -->
+      <div class="product-wrapper row">
+        <section class="section-blue content-wrapper right-aligned">
+          <div class="row">
+            <div class="column half">
+              <h4>Arrayed Audio</h4>
+              <p>Starting at $29.99</p>
+            </div>
+            <div class="column half desktop-hide">
+              <a href="https://www.etsy.com/shop/Forty45?section_id=17651361&ref=shopsection_leftnav_1" target="blank" class="button button-white float-right">Purchase on Etsy</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="image-wrapper float-left">
+          <div id="array-simple" data-target="simple" class="image array array-simple"></div>
+          <div id="array-detailed" data-target="detailed" class="image array array-detailed" style="display:none"></div>
+          <div id="array-decal" data-target="decal" class="image array array-decal" style="display:none"></div>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="switch-toggle switch-3 switch-candy switch-candy-blue">
+
+            <input id="simple" data-target="array-simple" name="array" type="radio" checked>
+            <label for="simple" onclick="">SIMPLE LINE</label>
+
+            <input id="detailed" data-target="array-detailed" name="array" type="radio">
+            <label for="detailed" onclick="">DETAILED LINE</label>
+
+            <input id="decal" data-target="array-decal" name="array" type="radio">
+            <label for="decal" onclick="">DECAL</label>
+
+            <a></a>
+          </div>
+          <p>Whether capturing a favorite song, displaying a personal experience, or even preserving the voice of a loved one, Arrayed Audio can convert any type of audio reference into a timeless design.</p>
+          <a href="https://www.etsy.com/shop/Forty45?section_id=17651361&ref=shopsection_leftnav_1" target="blank" class="button button-orange-transparent mobile-tablet-hide" style="margin-top: 1rem;">Purchase on Etsy</a>
+        </div>
+      </div>
+
+      <!-- Contoured Image -->
+      <hr class="row full">
+      <div class="product-wrapper row">
+        <section class="section-green content-wrapper">
+          <div class="row">
+            <div class="column half">
+              <h4>Contoured Image</h4>
+              <p>Starting at $139.99</p>
+            </div>
+            <div class="column half desktop-hide">
+              <button class="button-white float-right" disabled>Purchase on Etsy</button>
+            </div>
+          </div>
+        </section>
+
+        <div class="image-wrapper float-right">
+          <div id="contoured-diagonal" data-target="diagonal" class="image contoured contoured-diagonal"></div>
+          <div id="contoured-horizontal" data-target="horizontal" class="image contoured contoured-horizontal" style="display:none"></div>
+          <div class="image contoured contoured-vertical" data-target="vertical" style="display:none"></div>
+          <div class="image contoured contoured-circular" data-target="circular" style="display:none"></div>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="switch-toggle switch-4 switch-candy switch-candy-green">
+            <input id="diagonal" data-target="contoured-diagonal" name="contoured" type="radio" checked>
+            <label for="diagonal" onclick="">DIAGONAL</label>
+
+            <input id="horizontal" data-target="contoured-horizontal" name="contoured" type="radio">
+            <label for="horizontal" onclick="">HORIZONTAL</label>
+
+            <input id="vertical" name="contoured" type="radio">
+            <label for="vertical" onclick="">VERTICAL</label>
+
+            <input id="circular" name="contoured" type="radio">
+            <label for="circular" onclick="">CIRCULAR</label>
+
+            <a></a>
+          </div>
+
+          <p><span class="mobile-hide">From a distance, the piece appears as a standard print, expressing the desired image for display. As you get closer, however, the abstraction of the image becomes more apparent, showing the textured nature of the carved photo. </span>Made custom to order with many size and cutting options, each Contoured Image is completely unique, giving you a one of a kind piece to be displayed in your home, office, business, or school.</p>
+          <button class="button-orange-transparent mobile-tablet-hide" style="margin-top: 1rem;" disabled>Purchase on Etsy</button>
+        </div>
+      </div>
+
+      <!-- <hr class="row full">
+      <div class="product-wrapper row">
+        <section class="section-red">
+          <div class="row">
+            <div class="column half">
+              <h4>Arrayed Audio</h4>
+              <p>Starting at $29.99</p>
+            </div>
+            <div class="column half desktop-hide">
+              <button class="button-white float-right">Purchase on Etsy</button>
+            </div>
+          </div>
+        </section>
+      </div> -->
     </div>
+
+    <footer>
+      <div class="row">
+        &#169; 2015 Forty45 &#8211;&#32; <a href="mailto:info@forty45.com">info@forty45.com</a>
+      </div>
+    </footer>
   </div>
-
-  <!--Product Shots-->
-  <div class="row">
-    <div class="column card">
-
-      <!-- Thumbnail – Arrayed Audio_Cut Paper-->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#array-cut_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/product-shots/arrayed-audio-cut-paper_1.jpg" alt="Arrayed Audio Cut Paper" />
-              <div class="row shot-text">
-                <p class="shot-title">Arrayed Audio &#8211;&#32; <span class="mobile-hide">Paper</span> Cut</p>
-                <p class="shot-description">Starting at <span class="shot-price">$29.99</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="array-cut_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Arrayed Audio &#8211;&#32;Custom Paper Cut</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/product-shots/sold-arrays-02.png" alt="Arrayed Audio Cut Paper" />
-                </div>
-                <div class="modal-info">
-                  <p>Whether capturing a favorite song, displaying a personal experience, or even preserving the voice of a loved one, Arrayed Audio can convert any type of audio reference into a timeless design.</p>
-                  <p>Starting at <strong>$29.99</strong></p>
-                  <a href="https://www.etsy.com/listing/227370812/arrayed-audio-paper-cut-custom-sound?ref=shop_home_active_1" target="blank">
-                    <button class="button-orange mobile-tablet-hide">Purchase on Etsy</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="https://www.etsy.com/listing/227370812/arrayed-audio-paper-cut-custom-sound?ref=shop_home_active_1" target="blank">
-                  <button class="button-orange desktop-hide">Purchase on Etsy</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Thumbnail – Arrayed Audio_Print-->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#array-print_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/product-shots/arrayed-audio-print_1.jpg" alt="Arrayed Audio Print" />
-            <div class="row shot-text">
-              <p class="shot-title">Arrayed Audio &#8211;&#32;Print</p>
-              <p class="shot-description">Starting at <span class="shot-price">$29.99</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="array-print_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Arrayed Audio &#8211;&#32;Custom Print</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/product-shots/sold-arrays-01.png" alt="Arrayed Audio Print" />
-                </div>
-                <div class="modal-info">
-                  <p>Whether capturing a favorite song, displaying a personal experience, or even preserving the voice of a loved one, Arrayed Audio can convert any type of audio reference into a timeless design.</p>
-                  <p>Starting at <strong>$29.99</strong></p>
-                  <a href="https://www.etsy.com/listing/227370299/arrayed-audio-print-custom-sound-wave?ref=related-4" target="blank">
-                    <button class="button-orange mobile-tablet-hide">Purchase on Etsy</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="https://www.etsy.com/listing/227370299/arrayed-audio-print-custom-sound-wave?ref=related-4" target="blank">
-                  <button class="button-orange desktop-hide">Purchase on Etsy</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Thumbnail – Engraved Audio-->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#engraved_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/product-shots/engraved-audio_1.jpg" alt="Engraved Audio" />
-            <div class="row shot-text">
-              <p class="shot-title">Engraved Audio</p>
-              <p class="shot-description">Starting at <span class="shot-price">$149.99</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="engraved_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Engraved Audio &#8211;&#32;Custom Sound Art</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/product-shots/engraved.png" alt="Arrayed Audio Cut Paper" />
-                </div>
-                <div class="modal-info">
-                  <p>Made by carefully carving the values of any reference into wood, Engraved Audio creates a visual abstraction of your favorite song. With hanging slots carved into the back and a protective finish applied, Engraved Audio ships ready be hung in the location desired.</p>
-                  <p>Starting at <strong>$149.99</strong></p>
-                  <a href="https://www.etsy.com/listing/227364409/engraved-audio-custom-sound-wave-art?ref=listing-shop-header-1" target="blank">
-                    <button class="button-orange disabled mobile-tablet-hide">Out of stock</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="https://www.etsy.com/listing/227364409/engraved-audio-custom-sound-wave-art?ref=listing-shop-header-1" target="blank">
-                  <button class="button-orange disabled desktop-hide">Out of stock</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Thumbnail – Countored Image -->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#Contoured_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/product-shots/contoured-image_1.jpg" alt="Contoured Image" />
-            <div class="row shot-text">
-              <p class="shot-title">Contoured Image</p>
-              <p class="shot-description">Starting at <span class="shot-price">$139.99</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="Contoured_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Contoured Image &#8211;&#32;Custom Density Art</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/product-shots/contoured.jpg" alt="Arrayed Audio Cut Paper" />
-                </div>
-                <div class="modal-info">
-                  <p>From a distance, this piece appears as a standard print, expressing the desired image for display. As you get closer, however, the abstraction of the image becomes more apparent, showing the textured nature of your custom Contoured Image. </p>
-                  <p>Starting at <strong>$139.99</strong></p>
-                  <a href="https://www.etsy.com/listing/222922199/contoured-image-custom-density-art?ref=listing-shop-header-2" target="blank">
-                    <button class="button-orange disabled mobile-tablet-hide">Out of Stock</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="https://www.etsy.com/listing/222922199/contoured-image-custom-density-art?ref=listing-shop-header-2" target="blank">
-                  <button class="button-orange disabled desktop-hide">Out of Stock</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Thumbnail – Lined Image_Print -->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#Lined_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/product-shots/lined-image_print_3.jpg" alt="Lined Image" />
-            <div class="row shot-text">
-              <p class="shot-title">Lined Image &#8211;&#32;Print</p>
-              <p class="shot-description">Starting at <span class="shot-price">$26.99</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="Lined_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Lined Image &#8211;&#32;Custom Print</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/product-shots/lined-01.jpg" alt="Lined Image Print" />
-                </div>
-                <div class="modal-info">
-                  <p>Made custom to order, each Lined Image is completely unique, giving you a one of a kind piece to be displayed in your home, office, business, or school. With many size, color, and line style options, you have the opportunity to truly create the perfect representation of the desired photo.</p>
-                  <p>Starting at <strong>$26.99</strong></p>
-                  <a href="https://www.etsy.com/listing/227372640/lined-image-print-custom-density-art?ref=shop_home_active_5" target="blank">
-                    <button class="button-orange mobile-tablet-hide">Purchase on Etsy</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="https://www.etsy.com/listing/227372640/lined-image-print-custom-density-art?ref=shop_home_active_5" target="blank">
-                  <button class="button-orange desktop-hide">Purchase on Etsy</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Thumbnail – T-Shirt-->
-      <div>
-        <div class="column thumbnail" data-toggle="modal" data-target="#tshirt_Modal">
-          <div class="shot">
-            <img style="display: block;" src="img/tshirt.jpg" alt="T-Shirt" />
-            <div class="row shot-text">
-              <p class="shot-title">Forty45 T-Shirt</p>
-              <p class="shot-description">Purchase for <span class="shot-price">$20.49</span></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="tshirt_Modal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header row">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Forty45 T-Shirt</h4>
-              </div>
-              <div class="modal-body row">
-                <div class="modal-images">
-                  <img class="modal-img" src="img/tshirt.jpg" alt="Arrayed Audio Print" />
-                </div>
-                <div class="modal-info">
-                  <p>The official shirt for Forty45 fans. White script logo on a premium, 100% cotton t-shirt.</p>
-                  <p>Purchase for <strong>$20.49</strong></p>
-                  <a href="http://www.spreadshirt.com/t-shirt-C3376/article/102334612" target="blank">
-                    <button class="button-teal mobile-tablet-hide">Purchase on Spreadshirt</button>
-                  </a>
-                </div>
-              </div>
-              <div class="modal-footer row">
-                <a href="http://www.spreadshirt.com/t-shirt-C3376/article/102334612" target="blank">
-                  <button class="button-teal desktop-hide">Purchase on Spreadshirt</button>
-                </a>
-                <button type="button" class="button-secondary mobile-tablet-hide" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!--Footer-->
-  <footer>
-    &#169; 2015 Forty45 &#8211;&#32; <a href="mailto:info@forty45.com">info@forty45.com</a>
-  </footer>
-
 </body>
 </html>

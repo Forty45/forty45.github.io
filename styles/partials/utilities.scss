@@ -4,21 +4,20 @@
 
 .mobile-hide {
   display: none;
-  @media (min-width: 451px) { display: inline-block; }
+  @media (min-width: 451px) { display: inline; }
 }
 
 .mobile-tablet-hide {
   display: none;
-  @media (min-width: 451px) { display: none; }
-  @media (min-width: 751px) { display: inline-block; }
+  @media #{$desktop} { display: inline-block; }
 }
 
-tablet-hide {
+.tablet-hide {
   display: inline-block;
   @media (min-width: 451px) { display: none; }
   @media (min-width: 751px) { display: inline-block; }
 }
 
 .desktop-hide {
-  @media (min-width: 751px) { display: none; }
+  @media #{$desktop} { display: none; }
 }

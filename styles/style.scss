@@ -1,7 +1,10 @@
-@import "partials/color.scss";
-@import "partials/modal.scss";
-@import "partials/core.scss";
-@import "partials/mixins.scss";
-@import "partials/utilities.scss";
-@import "partials/grid.scss";
-@import "partials/elements.scss";
+@import "partials/grid";
+@import "partials/color";
+@import "partials/modal";
+@import "partials/utilities";
+@import "partials/mixins";
+@import "partials/core";
+@import "partials/buttons";
+@import "partials/elements";
+
+@import "vendor/toggle";

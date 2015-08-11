@@ -1,6 +1,28 @@
+@mixin button($background-color, $border-color, $type-color, $on-hover: 'lighten') {
+  background-color: $background-color;
+  border-color: $border-color;
+  color: $type-color;
+  @media #{$tablet} {
+    &:hover {
+      background-color: darken($background-color, 10%);
+      border-color: darken($border-color, 10%);
+      color: $type-color;
+    }
+  }
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
           border-radius: $radius;
+}
+
+@mixin user-select($none) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

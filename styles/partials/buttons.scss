@@ -1,0 +1,73 @@
+$buttons: ".button, button, input[type='submit'], input[type='reset']";
+$button-disabled: "&[disabled], &.disabled, &.button-disabled";
+
+button, .button {
+  @include border-radius(50px);
+  @include user-select(none);
+  background-color: transparent;
+  border-color: $gray-6;
+  color: $gray-6;
+  cursor: pointer;
+  border: 1px solid;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  line-height: 0;
+  list-style-type: none;
+  outline: none;
+  padding: 1rem 0.8rem;
+  text-transform: uppercase;
+  transition: all 0.15s ease 0s;
+
+  &:active {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.15);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.15);
+    outline: none !important;
+    transition: none;
+  }
+
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $gray-6;
+    border-color: $gray-6;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    opacity: .4;
+  }
+}
+
+#{$buttons} {
+  &.button-green {
+    @include button($background-color: $green, $border-color: $green, $type-color: $white);
+  }
+
+  &.button-blue {
+    @include button($background-color: $blue, $border-color: $blue, $type-color: $white);
+  }
+
+  &.button-orange {
+    @include button($background-color: $orange, $border-color: $orange, $type-color: $white);
+  }
+
+  &.button-orange-transparent {
+    @include button($background-color: transparent, $border-color: $orange, $type-color: $orange);
+  }
+
+  &.button-red {
+    @include button($background-color: $red, $border-color: $red, $type-color: $white);
+  }
+
+  &.button-gray {
+    @include button($background-color: $gray, $border-color: $gray, $type-color: $gray-8, $on-hover: 'darken');
+  }
+
+  &.button-white {
+    @include button($background-color: rgba(0, 0, 0, 0.15), $border-color: transparent, $type-color: $white, $on-hover: 'darken');
+  }
+}
