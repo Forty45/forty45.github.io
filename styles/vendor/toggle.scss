@@ -93,6 +93,9 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       font-size: 0.9rem;
+      @media #{$desktop} {
+        font-size: 0.7rem;
+      }
     }
 
     a {
