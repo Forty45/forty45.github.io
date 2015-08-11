@@ -4,12 +4,12 @@
 
 .mobile-hide {
   display: none;
-  @media (min-width: 451px) { display: inline; }
+  @media #{$tablet} { display: inline; }
 }
 
 .mobile-hide-inline-block {
   display: none;
-  @media (min-width: 451px) { display: inline-block; }
+  @media #{$tablet} { display: inline-block; }
 }
 
 .mobile-tablet-hide {
@@ -19,8 +19,8 @@
 
 .tablet-hide {
   display: inline-block;
-  @media (min-width: 451px) { display: none; }
-  @media (min-width: 751px) { display: inline-block; }
+  @media #{$tablet} { display: none; }
+  @media #{$desktop} { display: inline-block; }
 }
 
 .desktop-hide {

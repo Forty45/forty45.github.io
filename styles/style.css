@@ -1,7 +1,7 @@
 .row {
   margin: 0 auto;
   max-width: 64rem; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .row {
       max-width: 55rem; } }
   .row.full {
@@ -16,7 +16,7 @@
 .modal-dialog {
   width: auto;
   margin: 0.5rem; }
-  @media (min-width: 751px) {
+  @media all and (min-width: 64em) {
     .modal-dialog {
       width: 700px;
       margin: 10vh auto; } }
@@ -24,21 +24,21 @@
     float: left;
     height: 100%;
     width: 100%; }
-    @media (min-width: 751px) {
+    @media all and (min-width: 64em) {
       .modal-dialog .modal-images {
         width: 60%; } }
     .modal-dialog .modal-images .modal-img {
       display: block;
       margin: 0 auto;
       width: 100%; }
-      @media (min-width: 451px) {
+      @media all and (min-width: 40em) {
         .modal-dialog .modal-images .modal-img {
           width: 20rem; } }
   .modal-dialog .modal-info {
     margin-top: 1rem;
     float: left;
     width: 100%; }
-    @media (min-width: 751px) {
+    @media all and (min-width: 64em) {
       .modal-dialog .modal-info {
         margin-top: 0;
         margin-left: 2%;
@@ -58,41 +58,41 @@
 
 .mobile-hide {
   display: none; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .mobile-hide {
       display: inline; } }
 
 .mobile-hide-inline-block {
   display: none; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .mobile-hide-inline-block {
       display: inline-block; } }
 
 .mobile-tablet-hide {
   display: none; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .mobile-tablet-hide {
       display: inline-block; } }
 
 .tablet-hide {
   display: inline-block; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .tablet-hide {
       display: none; } }
-  @media (min-width: 751px) {
+  @media all and (min-width: 64em) {
     .tablet-hide {
       display: inline-block; } }
 
-@media all and (min-width: 64rem) {
+@media all and (min-width: 64em) {
   .desktop-hide {
     display: none; } }
 
 html {
   font-size: 14px; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     html {
       font-size: 16px; } }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     html {
       font-size: 18px; } }
 
@@ -111,13 +111,13 @@ section {
   min-height: 100%;
   position: relative; }
 
-@media all and (min-width: 64rem) {
+@media all and (min-width: 64em) {
   .content {
     margin-top: 5rem; } }
 
 hr.full {
   border-top: none; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     hr.full {
       border-top: 2px solid #E0E0E0;
       margin: 0 0 1rem 0; } }
@@ -125,19 +125,19 @@ hr.full {
 .image-wrapper {
   width: 100%;
   transition: all 0.5s ease-out; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .image-wrapper {
       width: 40%; } }
 
 .content-wrapper {
   padding: 1rem;
   width: 100%; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .content-wrapper {
       float: left;
       margin: 0;
       width: 60%; } }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .content-wrapper.right-aligned {
       float: right; } }
 
@@ -152,7 +152,7 @@ header {
   height: 4rem;
   overflow: hidden;
   padding: 1rem; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     header {
       background-color: rgba(251, 251, 251, 0.9);
       border-bottom: 2px solid #E0E0E0;
@@ -172,7 +172,7 @@ header {
     width: 8rem;
     float: left;
     margin: -0.7rem 0rem -2rem -1rem; }
-    @media (min-width: 451px) {
+    @media all and (min-width: 40em) {
       header .header-icon {
         height: 3.2rem;
         margin: -0.2rem 0 -1rem -1.5rem;
@@ -189,7 +189,7 @@ header {
     line-height: 37px;
     font-size: 0.9rem;
     transition: all 0.15s ease 0s; }
-    @media (min-width: 451px) {
+    @media all and (min-width: 40em) {
       header li, header a {
         padding: 0 1rem; } }
     header li:hover, header li:focus, header a:hover, header a:focus {
@@ -209,14 +209,14 @@ section {
     background-color: #E09050; }
   section.section-red {
     background-color: #BD6961; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     section.section-blue, section.section-green, section.section-orange, section.section-red {
       background-color: transparent; } }
   section h1, section h2, section h3, section h4, section p {
     color: #FFF;
     line-height: 0;
     margin: 0.3rem 0 -0.4rem 0; }
-    @media all and (min-width: 64rem) {
+    @media all and (min-width: 64em) {
       section h1, section h2, section h3, section h4, section p {
         color: #807E7E; } }
   section h4 {
@@ -267,7 +267,7 @@ footer {
   max-width: 300px;
   margin: 1.5rem auto;
   transition: 0.4s ease; }
-  @media (min-width: 751px) {
+  @media all and (min-width: 64em) {
     .title {
       background-size: 100%;
       height: 155px; } }
@@ -373,7 +373,7 @@ button, .button {
   background-color: #80BC72;
   border-color: #80BC72;
   color: #FFF; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-green:hover, button.button-green:hover, input[type='submit'].button-green:hover, input[type='reset'].button-green:hover {
       background-color: #62aa51;
       border-color: #62aa51;
@@ -382,7 +382,7 @@ button, .button {
   background-color: #4FA7C2;
   border-color: #4FA7C2;
   color: #FFF; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-blue:hover, button.button-blue:hover, input[type='submit'].button-blue:hover, input[type='reset'].button-blue:hover {
       background-color: #398ca5;
       border-color: #398ca5;
@@ -391,7 +391,7 @@ button, .button {
   background-color: #E09050;
   border-color: #E09050;
   color: #FFF; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-orange:hover, button.button-orange:hover, input[type='submit'].button-orange:hover, input[type='reset'].button-orange:hover {
       background-color: #d77526;
       border-color: #d77526;
@@ -400,7 +400,7 @@ button, .button {
   background-color: transparent;
   border-color: #E09050;
   color: #E09050; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-orange-transparent:hover, button.button-orange-transparent:hover, input[type='submit'].button-orange-transparent:hover, input[type='reset'].button-orange-transparent:hover {
       background-color: transparent;
       border-color: #d77526;
@@ -409,7 +409,7 @@ button, .button {
   background-color: #BD6961;
   border-color: #BD6961;
   color: #FFF; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-red:hover, button.button-red:hover, input[type='submit'].button-red:hover, input[type='reset'].button-red:hover {
       background-color: #a64e45;
       border-color: #a64e45;
@@ -418,7 +418,7 @@ button, .button {
   background-color: #A09E9E;
   border-color: #A09E9E;
   color: #807E7E; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-gray:hover, button.button-gray:hover, input[type='submit'].button-gray:hover, input[type='reset'].button-gray:hover {
       background-color: #878484;
       border-color: #878484;
@@ -427,7 +427,7 @@ button, .button {
   background-color: rgba(0, 0, 0, 0.15);
   border-color: transparent;
   color: #FFF; }
-  @media all and (min-width: 40rem) {
+  @media all and (min-width: 40em) {
     .button.button-white:hover, button.button-white:hover, input[type='submit'].button-white:hover, input[type='reset'].button-white:hover {
       background-color: rgba(0, 0, 0, 0.15);
       border-color: transparent;
@@ -436,7 +436,7 @@ button, .button {
 .card {
   margin: 0;
   padding: 0.5rem 1rem; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .card {
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
@@ -451,7 +451,7 @@ button, .button {
 
 .slider {
   display: none; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .slider {
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
@@ -493,12 +493,12 @@ button, .button {
   padding: 0;
   position: relative;
   width: 100%; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .column.thumbnail {
       margin: 1%;
       padding-bottom: calc(36% + 3.5rem);
       width: 48%; } }
-  @media (min-width: 751px) {
+  @media all and (min-width: 64em) {
     .column.thumbnail {
       margin: 1%;
       padding-bottom: calc(23.3333% + 3.5rem);
@@ -511,7 +511,7 @@ button, .button {
 
 .shot {
   pointer-events: none; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .shot {
       position: absolute; } }
   .shot img {
@@ -523,7 +523,7 @@ button, .button {
   position: relative;
   width: 100%;
   height: 3.5rem; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .shot-text {
       background-color: #242424; } }
 
@@ -535,7 +535,7 @@ button, .button {
   bottom: 0;
   margin: 1rem;
   text-align: left; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .shot-title {
       font-size: 0.9rem;
       margin: 1rem 1rem 1.6rem 1rem; } }
@@ -545,7 +545,7 @@ button, .button {
   margin: 1.1rem 1rem;
   font-size: 1rem;
   text-align: right; }
-  @media (min-width: 451px) {
+  @media all and (min-width: 40em) {
     .shot-description {
       font-size: 0.8rem;
       position: absolute;
@@ -658,7 +658,7 @@ button, .button {
   position: relative;
   table-layout: fixed;
   width: 90%; }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .switch-toggle {
       margin: 0 0 1rem 0;
       width: 21rem; } }
@@ -667,7 +667,7 @@ button, .button {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 0.9rem; }
-    @media all and (min-width: 64rem) {
+    @media all and (min-width: 64em) {
       .switch-toggle * {
         font-size: 0.7rem; } }
   .switch-toggle a {
@@ -685,10 +685,10 @@ button, .button {
     text-align: center;
     width: 50%;
     z-index: 2; }
-    @media all and (min-width: 64rem) {
+    @media all and (min-width: 64em) {
       .switch-toggle input + label {
         font-size: 0.7rem; } }
-  @media all and (min-width: 64rem) {
+  @media all and (min-width: 64em) {
     .switch-toggle.switch-3 {
       width: 18rem; } }
 

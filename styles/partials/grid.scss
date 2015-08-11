@@ -1,11 +1,11 @@
 //Tablet (640px)
-$tablet: "all and (min-width: 40rem)" !default;
+$tablet: "all and (min-width: 40em)" !default;
 
 //Desktop (1024px)
-$desktop: "all and (min-width: 64rem)" !default;
+$desktop: "all and (min-width: 64em)" !default;
 
 //Large-desktop (1536px)
-$large-desktop: "all and (min-width: 96rem)" !default;
+$large-desktop: "all and (min-width: 96em)" !default;
 
 .row {
   @extend .clearfix;
