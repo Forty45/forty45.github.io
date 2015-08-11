@@ -669,6 +669,7 @@ button, .button {
   .switch-toggle input + label {
     cursor: pointer;
     display: table-cell;
+    line-height: 1.75rem;
     margin: 0;
     padding: 0.1rem 0.5rem;
     position: relative;
@@ -771,6 +772,11 @@ button, .button {
     border: 2px solid #80BC72;
     box-shadow: 0 0 0 2px #80BC72;
     background-color: #80BC72; }
+    .switch-candy a span {
+      color: #FFF; }
+    .switch-candy a > span {
+      color: #333;
+      text-shadow: none; }
   .switch-candy.switch-candy-blue a {
     background-color: #4FA7C2;
     border: 2px solid #4FA7C2;
@@ -783,11 +789,6 @@ button, .button {
     background-color: #E09050;
     border: 2px solid #E09050;
     box-shadow: 0 0 0 2px #E09050; }
-  .switch-candy span {
-    color: #FFF; }
-  .switch-candy > span {
-    color: #333;
-    text-shadow: none; }
 
 /* Android Theme
 */

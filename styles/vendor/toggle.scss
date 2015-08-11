@@ -105,6 +105,7 @@
     input + label {
       cursor: pointer;
       display: table-cell;
+      line-height: 1.75rem;
       margin: 0;
       padding: 0.1rem 0.5rem;
       position: relative;
@@ -189,6 +190,11 @@
       border: 2px solid $green;
       box-shadow: 0 0 0 2px $green;
       background-color: $green;
+      span { color: $white; }
+      > span {
+        color: #333;
+        text-shadow: none;
+      }
     }
 
     &.switch-candy-blue a {
@@ -207,12 +213,6 @@
       background-color: $orange;
       border: 2px solid $orange;
       box-shadow: 0 0 0 2px $orange;
-    }
-
-    span { color: $white; }
-    > span {
-      color: #333;
-      text-shadow: none;
     }
   }
 
