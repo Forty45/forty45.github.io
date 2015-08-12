@@ -1,9 +1,5 @@
 AddType text/css .css
 
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
 RewriteEngine On
-
-# To internally redirect /dir/foo to /dir/foo.php
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^ %{REQUEST_URI}.php [L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
