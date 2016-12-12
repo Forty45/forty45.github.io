@@ -1,0 +1,168 @@
+$array-color: $blue;
+
+.body--array {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@mixin linearGradient($array-size){
+  background: $array-color; /* Old browsers */
+  background: -moz-linear-gradient(left, $array-color $array-size, $array-color $array-size, transparent $array-size); /*  FF3.6+ */
+  background: -webkit-gradient(linear, left, right, color-sleft($array-size, $array-color), color-sleft($array-size,$array-color), color-sleft($array-size,transparent)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, $array-color $array-size,$array-color $array-size,transparent $array-size); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, $array-color $array-size,$array-color $array-size,transparent $array-size); /* Opera11.10+ */
+  background: -ms-linear-gradient(left, $array-color $array-size,$array-color $array-size,transparent $array-size); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(left, $array-color $array-size, $array-color $array-size,transparent $array-size); /* W3C */
+}
+
+$item-count: 30;
+$circle-size: 15rem;
+
+/// Mixin to place items on a circle
+/// @param {Integer} $item-count - Number of items on the circle
+/// @param {Length} $circle-size - Large circle size
+/// @param {Length} $item-size - Single item size
+@mixin on-circle($item-count, $circle-size, $item-size) {
+  position: relative;
+  width:  $circle-size;
+  height: $circle-size;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+
+  > * {
+    display: block;
+    position: absolute;
+    top:  50%;
+    left: 16%;
+
+    $angle: (360 / $item-count);
+    $rot: 0;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform:
+          rotate($rot * 1deg)
+          translate($circle-size * .85);
+      }
+      $rot: $rot + $angle;
+    }
+  }
+}
+
+.circle-container {
+  @include on-circle($item-count: 100, $circle-size: 15rem, $item-size: 6em);
+  margin: calc(50vh - (#{$circle-size} / 2)) auto;
+
+  li {
+    background-color: $blue;
+    transition: .15s;
+    height: 0;
+    padding: 0.15rem;
+    width: 10rem;
+    &:nth-of-type(1) { @include linearGradient(80%); } //90deg
+    &:nth-of-type(2) { @include linearGradient(85%); }
+    &:nth-of-type(3) { @include linearGradient(70%); }
+    &:nth-of-type(4) { @include linearGradient(90%); }
+    &:nth-of-type(5) { @include linearGradient(85%); }
+    &:nth-of-type(6) { @include linearGradient(40%); }
+    &:nth-of-type(7) { @include linearGradient(40%); }
+    &:nth-of-type(8) { @include linearGradient(40%); }
+    &:nth-of-type(9) { @include linearGradient(40%); }
+    &:nth-of-type(10) { @include linearGradient(60%); }
+    &:nth-of-type(11) { @include linearGradient(55%); }
+    &:nth-of-type(12) { @include linearGradient(35%); }
+    &:nth-of-type(13) { @include linearGradient(100%); }
+    &:nth-of-type(14) { @include linearGradient(65%); }
+    &:nth-of-type(15) { @include linearGradient(85%); }
+    &:nth-of-type(16) { @include linearGradient(75%); }
+    &:nth-of-type(17) { @include linearGradient(95%); }
+    &:nth-of-type(18) { @include linearGradient(70%); }
+    &:nth-of-type(19) { @include linearGradient(75%); }
+    &:nth-of-type(20) { @include linearGradient(60%); }
+    &:nth-of-type(21) { @include linearGradient(55%); }
+    &:nth-of-type(22) { @include linearGradient(45%); }
+    &:nth-of-type(23) { @include linearGradient(75%); }
+    &:nth-of-type(24) { @include linearGradient(80%); }
+    &:nth-of-type(25) { @include linearGradient(100%); }
+    &:nth-of-type(26) { @include linearGradient(80%); } //180deg
+    &:nth-of-type(27) { @include linearGradient(90%); }
+    &:nth-of-type(28) { @include linearGradient(75%); }
+    &:nth-of-type(29) { @include linearGradient(85%); }
+    &:nth-of-type(30) { @include linearGradient(80%); }
+    &:nth-of-type(31) { @include linearGradient(75%); }
+    &:nth-of-type(32) { @include linearGradient(65%); }
+    &:nth-of-type(33) { @include linearGradient(80%); }
+    &:nth-of-type(34) { @include linearGradient(90%); }
+    &:nth-of-type(35) { @include linearGradient(85%); }
+    &:nth-of-type(36) { @include linearGradient(55%); }
+    &:nth-of-type(37) { @include linearGradient(70%); }
+    &:nth-of-type(38) { @include linearGradient(75%); }
+    &:nth-of-type(39) { @include linearGradient(90%); }
+    &:nth-of-type(40) { @include linearGradient(80%); }
+    &:nth-of-type(41) { @include linearGradient(80%); }
+    &:nth-of-type(42) { @include linearGradient(85%); }
+    &:nth-of-type(43) { @include linearGradient(100%); }
+    &:nth-of-type(44) { @include linearGradient(90%); }
+    &:nth-of-type(45) { @include linearGradient(85%); }
+    &:nth-of-type(46) { @include linearGradient(80%); }
+    &:nth-of-type(47) { @include linearGradient(85%); }
+    &:nth-of-type(48) { @include linearGradient(75%); }
+    &:nth-of-type(49) { @include linearGradient(90%); }
+    &:nth-of-type(50) { @include linearGradient(75%); }
+    &:nth-of-type(51) { @include linearGradient(70%); }
+    &:nth-of-type(52) { @include linearGradient(80%); }
+    &:nth-of-type(53) { @include linearGradient(100%); }
+    &:nth-of-type(54) { @include linearGradient(90%); }
+    &:nth-of-type(55) { @include linearGradient(85%); }
+    &:nth-of-type(56) { @include linearGradient(40%); }
+    &:nth-of-type(57) { @include linearGradient(40%); }
+    &:nth-of-type(58) { @include linearGradient(40%); }
+    &:nth-of-type(59) { @include linearGradient(40%); }
+    &:nth-of-type(60) { @include linearGradient(40%); }
+    &:nth-of-type(61) { @include linearGradient(40%); }
+    &:nth-of-type(62) { @include linearGradient(10%); }
+    &:nth-of-type(63) { @include linearGradient(100%); }
+    &:nth-of-type(64) { @include linearGradient(90%); }
+    &:nth-of-type(65) { @include linearGradient(85%); }
+    &:nth-of-type(66) { @include linearGradient(40%); }
+    &:nth-of-type(67) { @include linearGradient(40%); }
+    &:nth-of-type(68) { @include linearGradient(40%); }
+    &:nth-of-type(69) { @include linearGradient(40%); }
+    &:nth-of-type(70) { @include linearGradient(40%); }
+    &:nth-of-type(71) { @include linearGradient(40%); }
+    &:nth-of-type(72) { @include linearGradient(50%); }
+    &:nth-of-type(73) { @include linearGradient(35%); }
+    &:nth-of-type(74) { @include linearGradient(20%); }
+    &:nth-of-type(75) { @include linearGradient(10%); }
+    &:nth-of-type(76) { @include linearGradient(75%); } //start
+    &:nth-of-type(77) { @include linearGradient(45%); }
+    &:nth-of-type(78) { @include linearGradient(90%); }
+    &:nth-of-type(79) { @include linearGradient(80%); }
+    &:nth-of-type(80) { @include linearGradient(40%); }
+    &:nth-of-type(81) { @include linearGradient(50%); }
+    &:nth-of-type(82) { @include linearGradient(35%); }
+    &:nth-of-type(83) { @include linearGradient(80%); }
+    &:nth-of-type(84) { @include linearGradient(100%); }
+    &:nth-of-type(85) { @include linearGradient(95%); }
+    &:nth-of-type(86) { @include linearGradient(80%); }
+    &:nth-of-type(87) { @include linearGradient(75%); }
+    &:nth-of-type(88) { @include linearGradient(80%); }
+    &:nth-of-type(89) { @include linearGradient(50%); }
+    &:nth-of-type(90) { @include linearGradient(90%); }
+    &:nth-of-type(91) { @include linearGradient(70%); }
+    &:nth-of-type(92) { @include linearGradient(100%); }
+    &:nth-of-type(93) { @include linearGradient(90%); }
+    &:nth-of-type(94) { @include linearGradient(95%); }
+    &:nth-of-type(95) { @include linearGradient(85%); }
+    &:nth-of-type(96) { @include linearGradient(75%); }
+    &:nth-of-type(97) { @include linearGradient(80%); }
+    &:nth-of-type(98) { @include linearGradient(90%); }
+    &:nth-of-type(99) { @include linearGradient(95%); }
+    &:nth-of-type(100) { @include linearGradient(80%); }
+    &:hover {
+      @include linearGradient(0%);
+    }
+  }
+}

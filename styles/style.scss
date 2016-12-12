@@ -1,3 +1,6 @@
+@import "../bower_components/dashing/sass/base/base.scss";
+@import "../bower_components/dashing/sass/modules/modules.scss";
+
 @import "partials/grid";
 @import "partials/color";
 @import "partials/modal";
@@ -6,5 +9,6 @@
 @import "partials/core";
 @import "partials/buttons";
 @import "partials/elements";
+@import "partials/array";
 
 @import "vendor/toggle";
