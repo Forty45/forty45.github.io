@@ -66,10 +66,10 @@ $circle-size: 15rem;
     &:nth-of-type(3) { @include linearGradient(70%); }
     &:nth-of-type(4) { @include linearGradient(90%); }
     &:nth-of-type(5) { @include linearGradient(85%); }
-    &:nth-of-type(6) { @include linearGradient(40%); }
-    &:nth-of-type(7) { @include linearGradient(40%); }
-    &:nth-of-type(8) { @include linearGradient(40%); }
-    &:nth-of-type(9) { @include linearGradient(40%); }
+    &:nth-of-type(6) { @include linearGradient(100%); }
+    &:nth-of-type(7) { @include linearGradient(95%); }
+    &:nth-of-type(8) { @include linearGradient(80%); }
+    &:nth-of-type(9) { @include linearGradient(85%); }
     &:nth-of-type(10) { @include linearGradient(60%); }
     &:nth-of-type(11) { @include linearGradient(55%); }
     &:nth-of-type(12) { @include linearGradient(35%); }
@@ -111,27 +111,27 @@ $circle-size: 15rem;
     &:nth-of-type(48) { @include linearGradient(75%); }
     &:nth-of-type(49) { @include linearGradient(90%); }
     &:nth-of-type(50) { @include linearGradient(75%); }
-    &:nth-of-type(51) { @include linearGradient(70%); }
+    &:nth-of-type(51) { @include linearGradient(70%); } //270deg
     &:nth-of-type(52) { @include linearGradient(80%); }
     &:nth-of-type(53) { @include linearGradient(100%); }
     &:nth-of-type(54) { @include linearGradient(90%); }
     &:nth-of-type(55) { @include linearGradient(85%); }
-    &:nth-of-type(56) { @include linearGradient(40%); }
-    &:nth-of-type(57) { @include linearGradient(40%); }
-    &:nth-of-type(58) { @include linearGradient(40%); }
-    &:nth-of-type(59) { @include linearGradient(40%); }
-    &:nth-of-type(60) { @include linearGradient(40%); }
-    &:nth-of-type(61) { @include linearGradient(40%); }
-    &:nth-of-type(62) { @include linearGradient(10%); }
+    &:nth-of-type(56) { @include linearGradient(100%); }
+    &:nth-of-type(57) { @include linearGradient(75%); }
+    &:nth-of-type(58) { @include linearGradient(80%); }
+    &:nth-of-type(59) { @include linearGradient(90%); }
+    &:nth-of-type(60) { @include linearGradient(80%); }
+    &:nth-of-type(61) { @include linearGradient(100%); }
+    &:nth-of-type(62) { @include linearGradient(95%); }
     &:nth-of-type(63) { @include linearGradient(100%); }
     &:nth-of-type(64) { @include linearGradient(90%); }
     &:nth-of-type(65) { @include linearGradient(85%); }
-    &:nth-of-type(66) { @include linearGradient(40%); }
-    &:nth-of-type(67) { @include linearGradient(40%); }
-    &:nth-of-type(68) { @include linearGradient(40%); }
-    &:nth-of-type(69) { @include linearGradient(40%); }
-    &:nth-of-type(70) { @include linearGradient(40%); }
-    &:nth-of-type(71) { @include linearGradient(40%); }
+    &:nth-of-type(66) { @include linearGradient(75%); }
+    &:nth-of-type(67) { @include linearGradient(85%); }
+    &:nth-of-type(68) { @include linearGradient(80%); }
+    &:nth-of-type(69) { @include linearGradient(90%); }
+    &:nth-of-type(70) { @include linearGradient(70%); }
+    &:nth-of-type(71) { @include linearGradient(55%); }
     &:nth-of-type(72) { @include linearGradient(50%); }
     &:nth-of-type(73) { @include linearGradient(35%); }
     &:nth-of-type(74) { @include linearGradient(20%); }

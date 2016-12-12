@@ -2832,70 +2832,70 @@ button, .button, .file-custom .file-custom--button {
     .circle-container li:nth-of-type(6) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(100%, #4FA7C2), color-sleft(100%, #4FA7C2), color-sleft(100%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* W3C */ }
     .circle-container li:nth-of-type(7) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(95%, #4FA7C2), color-sleft(95%, #4FA7C2), color-sleft(95%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* W3C */ }
     .circle-container li:nth-of-type(8) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(80%, #4FA7C2), color-sleft(80%, #4FA7C2), color-sleft(80%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* W3C */ }
     .circle-container li:nth-of-type(9) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(85%, #4FA7C2), color-sleft(85%, #4FA7C2), color-sleft(85%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* W3C */ }
     .circle-container li:nth-of-type(10) {
       background: #4FA7C2;
@@ -3682,121 +3682,121 @@ button, .button, .file-custom .file-custom--button {
     .circle-container li:nth-of-type(56) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(100%, #4FA7C2), color-sleft(100%, #4FA7C2), color-sleft(100%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* W3C */ }
     .circle-container li:nth-of-type(57) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(75%, #4FA7C2), color-sleft(75%, #4FA7C2), color-sleft(75%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* W3C */ }
     .circle-container li:nth-of-type(58) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(80%, #4FA7C2), color-sleft(80%, #4FA7C2), color-sleft(80%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* W3C */ }
     .circle-container li:nth-of-type(59) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(90%, #4FA7C2), color-sleft(90%, #4FA7C2), color-sleft(90%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* W3C */ }
     .circle-container li:nth-of-type(60) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(80%, #4FA7C2), color-sleft(80%, #4FA7C2), color-sleft(80%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* W3C */ }
     .circle-container li:nth-of-type(61) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(100%, #4FA7C2), color-sleft(100%, #4FA7C2), color-sleft(100%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 100%, #4FA7C2 100%, transparent 100%);
       /* W3C */ }
     .circle-container li:nth-of-type(62) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 10%, #4FA7C2 10%, transparent 10%);
+      background: -moz-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(10%, #4FA7C2), color-sleft(10%, #4FA7C2), color-sleft(10%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(95%, #4FA7C2), color-sleft(95%, #4FA7C2), color-sleft(95%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 10%, #4FA7C2 10%, transparent 10%);
+      background: -webkit-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 10%, #4FA7C2 10%, transparent 10%);
+      background: -o-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 10%, #4FA7C2 10%, transparent 10%);
+      background: -ms-linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 10%, #4FA7C2 10%, transparent 10%);
+      background: linear-gradient(left, #4FA7C2 95%, #4FA7C2 95%, transparent 95%);
       /* W3C */ }
     .circle-container li:nth-of-type(63) {
       background: #4FA7C2;
@@ -3852,104 +3852,104 @@ button, .button, .file-custom .file-custom--button {
     .circle-container li:nth-of-type(66) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(75%, #4FA7C2), color-sleft(75%, #4FA7C2), color-sleft(75%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 75%, #4FA7C2 75%, transparent 75%);
       /* W3C */ }
     .circle-container li:nth-of-type(67) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(85%, #4FA7C2), color-sleft(85%, #4FA7C2), color-sleft(85%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 85%, #4FA7C2 85%, transparent 85%);
       /* W3C */ }
     .circle-container li:nth-of-type(68) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(80%, #4FA7C2), color-sleft(80%, #4FA7C2), color-sleft(80%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 80%, #4FA7C2 80%, transparent 80%);
       /* W3C */ }
     .circle-container li:nth-of-type(69) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(90%, #4FA7C2), color-sleft(90%, #4FA7C2), color-sleft(90%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 90%, #4FA7C2 90%, transparent 90%);
       /* W3C */ }
     .circle-container li:nth-of-type(70) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 70%, #4FA7C2 70%, transparent 70%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(70%, #4FA7C2), color-sleft(70%, #4FA7C2), color-sleft(70%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 70%, #4FA7C2 70%, transparent 70%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 70%, #4FA7C2 70%, transparent 70%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 70%, #4FA7C2 70%, transparent 70%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 70%, #4FA7C2 70%, transparent 70%);
       /* W3C */ }
     .circle-container li:nth-of-type(71) {
       background: #4FA7C2;
       /* Old browsers */
-      background: -moz-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -moz-linear-gradient(left, #4FA7C2 55%, #4FA7C2 55%, transparent 55%);
       /*  FF3.6+ */
-      background: -webkit-gradient(linear, left, right, color-sleft(40%, #4FA7C2), color-sleft(40%, #4FA7C2), color-sleft(40%, transparent));
+      background: -webkit-gradient(linear, left, right, color-sleft(55%, #4FA7C2), color-sleft(55%, #4FA7C2), color-sleft(55%, transparent));
       /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -webkit-linear-gradient(left, #4FA7C2 55%, #4FA7C2 55%, transparent 55%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -o-linear-gradient(left, #4FA7C2 55%, #4FA7C2 55%, transparent 55%);
       /* Opera11.10+ */
-      background: -ms-linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: -ms-linear-gradient(left, #4FA7C2 55%, #4FA7C2 55%, transparent 55%);
       /* IE10+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$array-color', endColorstr='transparent',GradientType=0 );
       /* IE6-9 */
-      background: linear-gradient(left, #4FA7C2 40%, #4FA7C2 40%, transparent 40%);
+      background: linear-gradient(left, #4FA7C2 55%, #4FA7C2 55%, transparent 55%);
       /* W3C */ }
     .circle-container li:nth-of-type(72) {
       background: #4FA7C2;
